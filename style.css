@@ -1,0 +1,51 @@
+.container {
+    max-width: 1295px;
+    margin: 0 auto;
+    padding: 20px;
+    border: solid 1px orange;
+   }
+.orange {
+    color: orange;
+    font-weight: bold;
+}
+.container h1{
+    color: blue;
+}
+
+.navbar{
+    background-color: blue;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-bottom: solid 3px orange;
+}
+
+.nav-links{
+    color: white;
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+}
+
+.logo {
+    color: white;
+    font-weight: bold;
+}
+
+.justification {
+    text-align: center; 
+    margin-top: 50px; 
+}
+
+.choice {
+    font-size: 24px; 
+    font-weight: bold;
+    color: #8AA1F7; 
+}
