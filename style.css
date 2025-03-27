@@ -160,4 +160,42 @@
 }
 
 
+/* ---------------------------------------- */
 
+.services{
+    border: solid 2px blue;
+}
+
+.services h3{
+    color: blue;
+    font-size: 24px;
+    margin-top: 80px;
+}
+
+
+.services-list {
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    margin: 20px 0;
+}
+
+.services-list p {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 0;
+    margin: 0;
+    border-bottom: 1px solid #dee2e6;
+}
+
+
+.service-name {
+    font-weight: bold;
+    color: #2d3436;
+    font-size: 20px;
+}
+
+.service-hours {
+    color: #6c757d;
+    font-size: 20px;
+}
