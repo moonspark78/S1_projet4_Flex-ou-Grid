@@ -283,9 +283,26 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
+    color: blue;
 }
 
 
+.sattus{
+    padding: 15px 27px;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+
+.paid{
+    background-color: green;
+    color: white;
+}
+.impaid{
+    background-color: red;
+    color: white;
+}
 
 
 
