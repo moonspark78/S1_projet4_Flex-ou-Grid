@@ -218,11 +218,21 @@
     padding: 20px;
 }
 
+.details .info{
+    color: orange;
+    font-size: 20px;
+}
+
 .details .info-mail{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 10px 0;
+}
+
+.details .info-mail a {
+    text-decoration: none;
+    color: inherit; 
 }
 
 
@@ -237,4 +247,45 @@
     display: flex;
     justify-content: flex-end;
     gap: 15px;
+    border: none;
 }
+
+
+.details .buttons .delete{
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.details .buttons .add{
+    background-color: blue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+}
+
+/* -------------------------------------------------------------------- */
+
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.invoice{
+    border: solid 2px blue;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+
+
+
+
