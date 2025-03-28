@@ -180,6 +180,7 @@
     list-style: none;
     padding: 10px;
     margin: 0;
+    margin-bottom: 100px;
 }
 .services li {
     padding: 10px;
@@ -206,11 +207,34 @@
     background-color: blue;
     color: white;
     padding: 10px 20px;
+    border: none;
     border-radius: 5px;
 }
 
 
 .details{
+    align-self: start;
     border: solid 2px blue;
     padding: 20px;
+}
+
+.details .info-mail{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+
+.details .info-phone{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.details .buttons{
+    display: flex;
+    justify-content: flex-end;
+    gap: 15px;
 }
